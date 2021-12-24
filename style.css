@@ -1,0 +1,159 @@
+div	{ 
+	background-color: lightgray; 
+	font-family: arial;
+	color: white;
+}
+
+.login	{
+	position: fixed;
+	width: 100%;
+	height:40px;	
+	margin-top:-20px;
+	background-color: red;
+	border-color: black	;
+	border-bottom: 5px solid black;
+	opacity: 0.8;
+	border-radius: 30px;
+
+
+}
+.login p {
+	font-size: 12px;
+	text-align: right;
+	margin-right: 30px;
+}
+
+.container {
+	width: 950px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: lightgray;
+	font-family: arial;
+	color: Black;
+	border: 1px;
+
+}
+
+.header ul li {
+	display:inline-block;
+	background-opacity: 20;
+	text-align: center;
+	margin-right: 20px;
+	padding-right: 10px;
+	border-radius: 20px;
+}
+
+.header a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: red;
+	}
+
+.hero {
+	height: 290px;
+	background-image: url(img/persepsi.png);
+	background-size: cover;
+	background-position:-40px;
+	border-top: 5px solid red;
+	}
+.header	{
+	background-image: linear-gradient(red,#bb0000);
+	border-radius: 10px;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+	}
+
+.pembungkus {
+	border-color: red;
+	background-image: linear-gradient(white,#948f8f,white);
+	width: 950px;
+	height: px;
+	margin: auto;
+}
+
+.pembungkus p {
+	margin-left: 10px;
+}
+
+.leftbar	{
+	background-color: red;
+	width: 175px;
+	float: left;
+	}
+.content {
+	background-color: #989898;
+	width: 600px;
+	float: left;
+	color: black;
+	}
+.content p {
+	margin-right: 20px;
+	margin-left: 70px;
+}
+.content H1	{
+	font-size: 24px;
+	margin-left: 20px;
+	background-image: linear-gradient(white,#948f8f);
+	border-radius: 10px;
+	padding-left: 30px;
+
+}
+
+.rightbar	{
+	background-color: red;
+	width: 175px;
+	float: right;
+	border-color: yellow;
+	border: 5px;
+	}
+.rightbar p {
+	margin-right:5px;
+	margin-left: 5px;
+	font-size: 12px;
+	color: white;
+}
+
+.rightbar img {
+	width: 50px;
+	weight:50px;
+	float: left;
+}
+.isisidebar {
+	background-color: #948f8f;
+}
+
+.isisidebar p {
+	background-color: #948f8f;
+	color:black;
+}
+.foother	{
+	background-color: black;
+	width: 950px;
+	float: center;
+	}
+
+/*clear*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
